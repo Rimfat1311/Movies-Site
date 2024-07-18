@@ -9,7 +9,7 @@ const MovieCard = ({ title, releaseDate, rating, imageUrl, trendingRank }) => {
           #{trendingRank} Trending
         </div>
       )}
-      <div className="p-4">
+      <div className="p-4"> 
         <h3 className="text-lg font-bold">{title}</h3>
         <p className="text-sm">{releaseDate}</p>
         <p className="text-sm font-bold">Rating: {rating}</p>

@@ -286,7 +286,7 @@ const movies = {
       rating: "7.5",
       imageUrl:
         "https://image.tmdb.org/t/p/original/f4oZTcfGrVTXKTWg157AwikXqmP.jpg",
-      trendingRank: 6,
+    
     },
   ],
 };

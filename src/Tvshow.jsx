@@ -1,12 +1,14 @@
 import React from 'react'
-import Nav from './components/Nav'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import PopularTvShow from './components/tvshows/PopularTvShow'
+
 
 const Tvshow = () => {
   return (
     <div>
-      <Nav />
-      <Footer />
+      <PopularTvShow />
+      
     </div>
   )
 }

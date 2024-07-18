@@ -1,12 +1,14 @@
 import React from 'react'
-import Nav from './components/Nav'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import PopularMovieShow from './components/movies/PopularMovieShow'
+
 
 const Movies = () => {
   return (
     <div>
-      <Nav />
-      <Footer />
+      <PopularMovieShow />
+      
     </div>
   )
 }

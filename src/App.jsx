@@ -4,18 +4,20 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Tvshow from "./Tvshow";
 import Movies from "./Movies";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-  <>  
-  <Routes>
-    <Route path="/" element = {<Home />}/>
-    <Route path="/tvshows" element = {<Tvshow />}/>
-    <Route path="/movies" element = {<Movies />}/>
-
-  </Routes>
-
-  </>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/tvshows" element={<Tvshow />} />
+        <Route path="/movies" element={<Movies />} />
+      </Routes>
+      <Footer />
+    </>
   );
 };
 

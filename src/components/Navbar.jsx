@@ -1,17 +1,20 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className='fixed top-0 w-full flex bg-black transperen bg-opacity-50 text-white justify-between p-6 z-40'>
-        <div className='flex gap-5'>
-            <span><img src="https://movieoapp.vercel.app/static/media/logo.5f76119f8f1f473eea2f.png" className='w-24' alt="Home" /></span>
-            <p>TV Show</p>
-            <p>Movies</p>
+        <div className='flex gap-5 cursor-pointer'>
+            <span className='flex'>
+              <Link to="/"><img src="https://movieoapp.vercel.app/static/media/logo.5f76119f8f1f473eea2f.png" className='w-24' alt="Home" /></Link>
+             </span>
+            <p><Link to="/tv show">TV Show</Link></p>
+            <p><Link to="/movies">Movies</Link></p>
+           
             
         </div>
         <div className='flex gap-5'>
-            <input placeholder='search here...' className='bg-transparent'/>
+            <input placeholder='search here...' className='bg-transparent border-none'/>
             <button className="">
             <svg
               stroke="currentColor"

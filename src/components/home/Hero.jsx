@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black bg-opacity-65"></div>
       <div className="relative z-10 text-center text-white px-4">
         <h1 className="text-4xl font-bold mb-4">
-          Unlimited movies, TV shows, and more
+          Unlimited movies, TV shows, and more 
         </h1>
         <p className="text-lg mb-6">Watch anywhere. Cancel anytime.</p>
         <p className="text-md mb-6">

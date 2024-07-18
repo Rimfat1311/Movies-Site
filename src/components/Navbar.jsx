@@ -8,7 +8,7 @@ const Navbar = () => {
             <span className='flex'>
               <Link to="/"><img src="https://movieoapp.vercel.app/static/media/logo.5f76119f8f1f473eea2f.png" className='w-24' alt="Home" /></Link>
              </span>
-            <p><Link to="/tv show">TV Show</Link></p>
+            <p><Link to="/tvshows">TV Show</Link></p>
             <p><Link to="/movies">Movies</Link></p>
            
             

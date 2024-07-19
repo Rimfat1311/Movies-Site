@@ -1,13 +1,12 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import PopularTvShow from './components/tvshows/PopularTvShow'
+import PopularTvShows from './components/tvShows/PopularTvShows'
+
 
 
 const Tvshow = () => {
   return (
     <div>
-      <PopularTvShow />
+      <PopularTvShows />
       
     </div>
   )

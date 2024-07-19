@@ -7,12 +7,15 @@ const MovieCard = ({ title, releaseDate, rating, imageUrl, trendingRank }) => {
       {trendingRank && (
         <div className="absolute top-2 left-2 bg-gray-600 text-xs font-bold py-1 px-2 rounded">
           #{trendingRank} Trending
+          {/* <p>{rating}</p>
+          <p>{title}</p>
+          <p>{releaseDate}</p> */}
         </div>
       )}
-      <div className="p-4"> 
+      <div className="p-"> 
         <h3 className="text-lg font-bold">{title}</h3>
         <p className="text-sm">{releaseDate}</p>
-        <p className="text-sm font-bold">Rating: {rating}</p>
+        <p className="text-sm font-bold">{rating}</p>
       </div>
     </div>
   );

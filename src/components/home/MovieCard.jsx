@@ -33,11 +33,9 @@ const MovieCard = ({ title, releaseDate, rating, imageUrl, trendingRank }) => {
           <p>{releaseDate}</p> */}
         </div>
       )}
-<<<<<<< HEAD
-      <div className="p-"> 
-=======
+
       <div className="p-4">
->>>>>>> a7203e683f4c82c5d1010c3205a2ae62285d5596
+
         <h3 className="text-lg font-bold">{title}</h3>
         <p className="text-sm">{releaseDate}</p>
         <p className="text-sm font-bold">{rating}</p>

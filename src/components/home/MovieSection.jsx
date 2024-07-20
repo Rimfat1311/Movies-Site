@@ -289,7 +289,7 @@ const movies = {
     
     },
   ],
-  popularMovies: [
+  popularMovie: [
     {
       title: "Despicable Me 4",
       releaseDate: "June 11th 2024",

@@ -61,6 +61,34 @@ const movies = {
       imageUrl:
         "https://image.tmdb.org/t/p/original/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
     },
+    {
+      title: "Demon Slayer: Kimetsu no Yaiba",
+      releaseDate: "June 20th 2024",
+      rating: "5.8",
+      imageUrl:
+        "https://image.tmdb.org/t/p/original/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+    },
+    {
+      title: "Demon Slayer: Kimetsu no Yaiba",
+      releaseDate: "June 20th 2024",
+      rating: "5.8",
+      imageUrl:
+        "https://image.tmdb.org/t/p/original/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+    },
+    {
+      title: "Demon Slayer: Kimetsu no Yaiba",
+      releaseDate: "June 20th 2024",
+      rating: "5.8",
+      imageUrl:
+        "https://image.tmdb.org/t/p/original/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+    },
+    {
+      title: "Demon Slayer: Kimetsu no Yaiba",
+      releaseDate: "June 20th 2024",
+      rating: "5.8",
+      imageUrl:
+        "https://image.tmdb.org/t/p/original/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+    },
 
     
    

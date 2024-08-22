@@ -1,5 +1,5 @@
 import React from 'react'
-import PopularTvShows from "./components/tvshows/PopularTvShows"
+import PopularTvShows from "./components/tvShows/PopularTvShows"
 
 
 

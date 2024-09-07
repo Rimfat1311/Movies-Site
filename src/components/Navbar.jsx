@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className='fixed top-0 w-full flex bg-black transperen bg-opacity-50 text-white justify-between p-6 z-40'>
+    <div className='fixed relative top-0 w-full flex bg-black transperen bg-opacity-50 text-white justify-between p-6 z-40'>
         <div className='flex gap-5 cursor-pointer'>
             <span className='flex'>
               <Link to="/"><img src="https://movieoapp.vercel.app/static/media/logo.5f76119f8f1f473eea2f.png" className='w-24' alt="Home" /></Link>
